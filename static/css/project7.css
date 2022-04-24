@@ -54,4 +54,20 @@ header .explore.at_top {
   opacity: 1;
 }
 
+nav.navbar {
+  transition: 0.5s;
+}
+nav.navbar a {
+  transition: 0.5s;
+}
+
+/*    .active
+ *    color: black */
+nav.navbar.at_top {
+  background-color: transparent;
+}
+nav.navbar.at_top a, nav.navbar.at_top a:visited {
+  color: #ececec;
+}
+
 /*# sourceMappingURL=project7.css.map */
