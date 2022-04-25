@@ -17,7 +17,9 @@ func (c *MainController) Get() {
 	c.Data["Email"] = "astaxie@gmail.com"
 	c.TplName = "index.tpl"*/
 	c.Data["content"] = "this is jade template"
-	c.TplName = "home.jade"
+	//c.TplName = "home.jade"
+	c.TplName = "preloader.jade"
+
 }
 
 func (c *Project7Controller) Get() {
